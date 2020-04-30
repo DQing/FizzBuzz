@@ -136,4 +136,13 @@ public class fizzbuzz_specs {
 
         Assert.assertEquals("Whizz", result);
     }
+
+    @Test
+    public void should_return_Fizz_when_play_given_number_75() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(75);
+
+        Assert.assertEquals("Fizz", result);
+    }
 }
