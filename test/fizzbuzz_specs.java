@@ -91,4 +91,49 @@ public class fizzbuzz_specs {
 
         Assert.assertEquals("FizzWhizz", result);
     }
+
+    @Test
+    public void should_return_Fizz_when_play_given_number_30() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(30);
+
+        Assert.assertEquals("Fizz", result);
+    }
+
+    @Test
+    public void should_return_BuzzWhizz_when_play_given_number_35() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(35);
+
+        Assert.assertEquals("BuzzWhizz", result);
+    }
+
+    @Test
+    public void should_return_Whizz_when_play_given_number_56() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(56);
+
+        Assert.assertEquals("Whizz", result);
+    }
+
+    @Test
+    public void should_return_FizzBuzz_when_play_given_number_60() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(60);
+
+        Assert.assertEquals("FizzBuzz", result);
+    }
+
+    @Test
+    public void should_return_Whizz_when_play_given_number_70() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(70);
+
+        Assert.assertEquals("Whizz", result);
+    }
 }
