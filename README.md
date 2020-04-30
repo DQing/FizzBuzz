@@ -1,7 +1,6 @@
 ## FizzBuzz Tasking
 
 - Given 数字1 When 玩游戏 Then 学生报1
-- Given 数字2 When 玩游戏 Then 学生报2
 - Given 数字3 When 玩游戏 Then 学生报Fizz
 - Given 数字4 When 玩游戏 Then 学生报4
 - Given 数字5 When 玩游戏 Then 学生报Buzz
