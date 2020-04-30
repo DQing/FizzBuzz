@@ -8,7 +8,7 @@ public class fizzbuzz_specs {
         FizzBuzz fizzBuzz = new FizzBuzz();
         var result = fizzBuzz.play(1);
 
-        Assert.assertEquals("", result);
+        Assert.assertEquals("1", result);
     }
 
     @Test
@@ -18,5 +18,23 @@ public class fizzbuzz_specs {
         var result = fizzBuzz.play(3);
 
         Assert.assertEquals("Fizz", result);
+    }
+
+    @Test
+    public void should_return_4_when_play_given_number_4() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(4);
+
+        Assert.assertEquals("4", result);
+    }
+
+    @Test
+    public void should_return_buzz_when_play_given_number_5() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        var result = fizzBuzz.play(5);
+
+        Assert.assertEquals("Buzz", result);
     }
 }

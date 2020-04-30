@@ -1,8 +1,11 @@
 public class FizzBuzz {
     public String play(int num) {
-        if (num == 3) {
+        if (num == 5) {
+            return "Buzz";
+        }
+        if (num % 3 == 0) {
             return "Fizz";
         }
-        return "1";
+        return String.valueOf(num);
     }
 }
