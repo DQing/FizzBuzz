@@ -1,4 +1,5 @@
 ## FizzBuzz Tasking
+3的倍数Fizz，5的倍数Buzz，7的倍数Whizz，可任意组合
 包含3：显示Fizz
 包含5：被5整除 Buzz，被7整除 Whizz
 包含7：被3整除Fizz，被7整除 Whizz
