@@ -1,5 +1,5 @@
 public class FizzBuzz {
-    public String play(int num) {
+    public String playing(int num) {
         var numString = String.valueOf(num);
         boolean isContain3 = numString.contains("3");
         boolean isContain5 = numString.contains("5");
