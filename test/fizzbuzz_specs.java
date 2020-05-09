@@ -53,4 +53,43 @@ public class fizzbuzz_specs {
         Assert.assertEquals("Whizz", result);
     }
 
+    @Test
+    public void should_return_FizzBuzz_when_playing_given_number_is_60() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(60);
+
+        Assert.assertEquals("FizzBuzz", result);
+    }
+
+    @Test
+    public void should_return_FizzWhizz_when_playing_given_number_is_21() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(21);
+
+        Assert.assertEquals("FizzWhizz", result);
+    }
+
+    @Test
+    public void should_return_BuzzWhizz_when_playing_given_number_is_140() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(140);
+
+        Assert.assertEquals("BuzzWhizz", result);
+    }
+
+    @Test
+    public void should_return_FizzBuzzWhizz_when_playing_given_number_is_210() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(210);
+
+        Assert.assertEquals("FizzBuzzWhizz", result);
+    }
 }

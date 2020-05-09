@@ -14,10 +14,10 @@
 - Given 数字14 When 玩游戏 Then 学生报Whizz
 // - Given 数字28 When 玩游戏 Then 学生报Whizz
 
-- Given 数字60（3*5） When 玩游戏 Then 学生报FizzBuzz
+- Given 数字60（3*5*4） When 玩游戏 Then 学生报FizzBuzz
 - Given 数字21（3*7）When 玩游戏 Then 学生报FizzWhizz
-- Given 数字140（5*7） When 玩游戏 Then 学生报BuzzWhizz
-- Given 数字210（3*5*7） When 玩游戏 Then 学生报FizzBuzzWhizz
+- Given 数字140（5*7*4） When 玩游戏 Then 学生报BuzzWhizz
+- Given 数字210（3*5*7*2） When 玩游戏 Then 学生报FizzBuzzWhizz
 
 - Given 数字13 When 玩游戏 Then 学生报Fizz
 - Given 数字3 When 玩游戏 Then 学生报Fizz
