@@ -25,8 +25,8 @@
 - Given 数字133（7*19） When 玩游戏 Then 学生报Fizz
 
 - Given 数字5 When 玩游戏 Then 学生报Buzz
-- Given 数字35 When 玩游戏 Then 学生报BuzzWhizz
-- Given 数字56 When 玩游戏 Then 学生报Whizz
+- Given 数字35(5*7) When 玩游戏 Then 学生报BuzzWhizz
+- Given 数字56(7*8) When 玩游戏 Then 学生报Whizz
 
 - Given 数字17 When 玩游戏 Then 学生报17
 - Given 数字70（7*10） When 玩游戏 Then 学生报Whizz
