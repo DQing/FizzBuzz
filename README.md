@@ -8,8 +8,11 @@
 - Given 数字4 When 玩游戏 Then 学生报4
 
 - Given 数字6 When 玩游戏 Then 学生报Fizz
+// - Given 数字9 When 玩游戏 Then 学生报Fizz
 - Given 数字10 When 玩游戏 Then 学生报Buzz
+// - Given 数字20 When 玩游戏 Then 学生报Buzz
 - Given 数字14 When 玩游戏 Then 学生报Whizz
+// - Given 数字28 When 玩游戏 Then 学生报Whizz
 
 - Given 数字60（3*5） When 玩游戏 Then 学生报FizzBuzz
 - Given 数字21（3*7）When 玩游戏 Then 学生报FizzWhizz

@@ -22,4 +22,35 @@ public class fizzbuzz_specs {
 
         Assert.assertEquals("4", result);
     }
+
+    @Test
+    public void should_return_Fizz_when_playing_given_number_is_6() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(6);
+
+        Assert.assertEquals("Fizz", result);
+    }
+
+    @Test
+    public void should_return_Buzz_when_playing_given_number_is_10() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(10);
+
+        Assert.assertEquals("Buzz", result);
+    }
+
+    @Test
+    public void should_return_Whizz_when_playing_given_number_is_14() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        var result = fizzBuzz.playing(14);
+
+        Assert.assertEquals("Whizz", result);
+    }
+
 }
