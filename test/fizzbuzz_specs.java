@@ -134,11 +134,11 @@ public class fizzbuzz_specs {
     }
 
     @Test
-    public void should_return_Buzz_when_playing_given_number_is_5() {
+    public void should_return_Buzz_when_playing_given_number_is_15() {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        var result = fizzBuzz.playing(5);
+        var result = fizzBuzz.playing(15);
 
         Assert.assertEquals("Buzz", result);
     }
